@@ -1,0 +1,334 @@
+* {
+    box-sizing:border-box;
+}
+.row {
+    margin :0px;
+}
+.container {
+    padding:0px;
+}
+body {
+    overflow-x:hidden;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.5px;
+    /* background-color:wheat; */
+}
+img {
+    width:100%;
+}
+.upper-part {
+    background-color:black;
+}
+.upper-part center {
+    /* position:fixed; */
+    background-color:white;
+    /* width:100%; */
+    /* left:0px; */
+}
+.upper-part p a:hover{
+    text-decoration: none;
+}
+.upper-part center a {
+    color:black;
+    font-weight:bold;
+}
+.upper-part center i {
+    font-size:16.5px;
+    margin:5px 5px;
+    display:inline-block;
+    background-color:black;
+    color:white;
+    padding:10px 15px;
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+footer .footermargin {
+    /* margin-bottom:65px; */
+    padding-top:25px;
+}
+.upper-part center i:hover{
+    background-color:lightgrey;
+    color:black;
+}
+.upper-part nav {
+    /* position :fixed; */
+    /* width:100%; */
+    /* left:0px; */
+    background-color:white;
+    /* top:50px; */
+}
+.upper-part nav a {
+    color:black;
+    font-weight:bold;
+    font-size:15px;
+    margin:5px 15px;
+    display: inline-block;
+}
+.upper-part nav a:after {
+    content:'';
+    border-bottom:1px solid black;
+    width:100%;
+}
+.nav-item {
+    text-align:center;
+    color:#39629b !important;
+}
+.about-us h1 {
+    font-weight:bold;
+    letter-spacing: 1px;
+    margin:45px 0px;
+    font-size:50px;
+}
+::-webkit-scrollbar {
+    width:0px;
+}
+table {
+    text-align:center;
+}
+.package-cost {
+    background-color:yellow;
+    font-weight:bold;
+    padding:10px 10px;
+    font-size:22.5px;
+}
+.andamanabout {
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+.andamanabout h1,.andamanabout h2, .andamanabout h3 {
+    font-weight:bold;
+    margin:20px 0px;
+}
+.andamanabout p {
+    margin:10px 0px;
+}
+.logo {
+    width:35%;
+}
+.logo img {
+    width:100%;
+}
+.cost{
+    background-color:yellow;
+}
+ul {
+list-style: none;
+}
+.inc-exc {
+margin:50px 0px;
+}
+.book {
+display: inline-block;
+margin:25px 0px;
+}
+.inclusion li {
+color:green;
+font-weight:bold;
+margin:10px 0px;
+}
+.inclusion li:before {
+content: '✓';
+margin-right:7px;
+}
+.exclusion li  {
+color:red;
+font-weight:bold;
+margin:10px 0px;
+}
+.exclusion li:before {
+content :'✖';
+margin-right:7px;
+}
+.package-details h1 {
+font-size:35px;
+}
+.package-details h2 {
+font-size:25px;
+}
+.package-details h3 {
+font-size:22.5px;
+}
+.package-details h3:before {
+content :'\25ba';
+color:darkgrey;
+padding-right:5px;
+}
+.black-button {
+    background-color:black !important;
+    border:1px solid black;
+}
+.package-details h1 , .package-details h2 , .package-details h3 {
+margin:28px 0px;
+/* text-decoration: underline; */
+font-weight:bolder;
+letter-spacing: 0.5px;
+}
+.background {
+background-color:azure;
+}
+.table {
+margin:50px 0px; 
+}
+@media(max-width:474px) 
+{
+    .upper-part center {
+        margin :10px 0px;
+    }
+    .upper-part p {
+        padding:12.5px 0px;
+    }
+    .upper-part center i {
+        font-size:12.5px;
+        margin:0px 0px;
+        display:inline-block;
+        background-color:black;
+        color:white;
+        /* padding:10px 15px; */
+        border-radius: 50%;
+        transition-duration: 1s;
+    }
+    .upper-part center a {
+        color:black;
+        font-weight:bold;
+        font-size:15px;
+    }
+}
+@media(max-width:404px) 
+{
+    .upper-part center {
+        margin :10px 0px;
+    }
+    .upper-part center i {
+        font-size:12.5px;
+        margin:0px 0px;
+        display:inline-block;
+        background-color:black;
+        color:white;
+        /* padding:10px 15px; */
+        border-radius: 50%;
+        transition-duration: 1s;
+    }
+    .upper-part center a {
+        color:black;
+        font-weight:bold;
+        font-size:12.5px;
+    }
+}
+hr   {
+    border:0.5px solid black;
+    width:20%;
+}
+.contact-us-form input{
+    margin:10px 0px;
+    width:100%;
+    padding:15px 5px;
+    border:1px solid lightgray;
+}
+.map {
+    border:3.5px dotted black;
+    margin-bottom:40px;
+}
+textarea {
+    width:100%;
+    height:100px;
+    resize:none;
+    margin-top:10px;
+    border:1px solid lightgray;
+}
+.contact-us-form button {
+    background-color:lightgrey;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    cursor: pointer;
+    border:none;
+    padding:10px 20px;
+    margin-top:30px;
+    margin-bottom:50px;
+    transition-duration:0.5s;
+}
+.contact-us-form button:hover {
+    background-color:black;
+    color:white;
+}
+.about-us img {
+    width:20%;
+}
+.card {
+    margin:50px 0px;
+}
+.card a {
+    display: inline-block;
+    text-align:center;
+}
+.love {
+    color:red !important;
+}
+#packages h1 {
+    font-weight:bold;
+    letter-spacing: 1px;
+    margin:45px 0px;
+    font-size:50px;
+}
+footer {
+    background-color:black;
+    color:white;
+    padding-top:30px;
+}
+footer i {
+    font-size:25px;
+}
+footer a {
+    padding:10px ;
+    color:white;
+    transition-duration: 0.5s;
+}
+footer a:hover {
+    color:lightgray;
+    text-decoration: none;
+}
+footer .copyright p {
+    margin-top:60px;
+}
+.contact h1 {
+    font-weight:bold;
+    letter-spacing: 1px;
+    margin:45px 0px;
+    font-size:50px;
+}
+@media(max-width:1024px) 
+{
+    .about-us img {
+        width:30%;
+    }
+}
+@media(max-width:992px) 
+{
+    .about-us img {
+        width:40%;
+    }
+}
+@media(max-width:768px) 
+{
+    .about-us img {
+        width:50%;
+    }
+    .logo {
+        width:60%;
+    }
+}
+@media(max-width:576px) 
+{
+    .about-us img {
+        width:60%;
+    }
+}
+@media(max-width:376px) 
+{
+    .about-us img {
+        width:70%;
+    }
+    .logo {
+        width:70%;
+    }
+}
